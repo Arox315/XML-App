@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block head%}
+<title>XML - Error</title>
+{% endblock %}
+
+{% block body %}
+<div class="container">
+    {% if table_name != None %}
+        <h1 class="error">Błąd! Nieudało się zapisać danych do tabeli {{table_name}}</h1>
+    {% endif %}
+    <h2>{{err_data[0]}}</h2>
+    <p>Kod błędu: {{err_data[1]}}</p>
+    <p>{{err_data[2]}}</p>
+</div>
+{% endblock %}

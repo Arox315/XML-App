@@ -1,0 +1,702 @@
+<Gosc>
+    <Gosc-element>
+        <GOSC_ID type="int">1</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-09-06</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-09-15</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">51</REZERWACJA_ID>
+        <KLIENT_ID type="int">403</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">2</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-07-04</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-07-13</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">21</REZERWACJA_ID>
+        <KLIENT_ID type="int">108</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">3</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-08-11</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-08-12</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">27</REZERWACJA_ID>
+        <KLIENT_ID type="int">52</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">4</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-07-19</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-07-27</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">56</REZERWACJA_ID>
+        <KLIENT_ID type="int">161</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">5</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-09-21</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-10-03</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">69</REZERWACJA_ID>
+        <KLIENT_ID type="int">348</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">6</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-08-14</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-08-15</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">80</REZERWACJA_ID>
+        <KLIENT_ID type="int">277</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">7</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-07-09</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-07-23</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">3</REZERWACJA_ID>
+        <KLIENT_ID type="int">313</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">8</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-07-15</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-07-24</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">33</REZERWACJA_ID>
+        <KLIENT_ID type="int">232</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">9</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-09-30</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-10-09</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">73</REZERWACJA_ID>
+        <KLIENT_ID type="int">463</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">10</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-07-20</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-07-26</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">28</REZERWACJA_ID>
+        <KLIENT_ID type="int">424</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">11</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-07-25</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-07-28</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">52</REZERWACJA_ID>
+        <KLIENT_ID type="int">490</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">12</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-08-21</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-08-27</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">53</REZERWACJA_ID>
+        <KLIENT_ID type="int">391</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">13</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-08-02</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-08-09</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">86</REZERWACJA_ID>
+        <KLIENT_ID type="int">318</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">14</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-07-09</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-07-17</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">8</REZERWACJA_ID>
+        <KLIENT_ID type="int">200</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">15</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-09-03</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-09-14</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">85</REZERWACJA_ID>
+        <KLIENT_ID type="int">134</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">16</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-08-22</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-09-04</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">95</REZERWACJA_ID>
+        <KLIENT_ID type="int">419</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">17</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-09-16</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-09-20</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">96</REZERWACJA_ID>
+        <KLIENT_ID type="int">183</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">18</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-07-09</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-07-11</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">31</REZERWACJA_ID>
+        <KLIENT_ID type="int">352</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">19</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-07-22</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-08-05</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">35</REZERWACJA_ID>
+        <KLIENT_ID type="int">40</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">20</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-06-23</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-06-26</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">36</REZERWACJA_ID>
+        <KLIENT_ID type="int">275</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">21</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-08-04</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-08-10</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">45</REZERWACJA_ID>
+        <KLIENT_ID type="int">36</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">22</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-08-09</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-08-17</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">25</REZERWACJA_ID>
+        <KLIENT_ID type="int">437</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">23</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-08-22</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-08-26</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">57</REZERWACJA_ID>
+        <KLIENT_ID type="int">481</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">24</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-08-15</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-08-20</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">62</REZERWACJA_ID>
+        <KLIENT_ID type="int">78</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">25</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-10-09</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-10-22</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">91</REZERWACJA_ID>
+        <KLIENT_ID type="int">99</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">26</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-08-12</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-08-24</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">34</REZERWACJA_ID>
+        <KLIENT_ID type="int">244</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">27</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-07-19</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-07-29</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">41</REZERWACJA_ID>
+        <KLIENT_ID type="int">404</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">28</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-08-11</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-08-24</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">42</REZERWACJA_ID>
+        <KLIENT_ID type="int">357</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">29</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-08-19</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-08-25</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">78</REZERWACJA_ID>
+        <KLIENT_ID type="int">379</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">30</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-09-17</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-10-01</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">99</REZERWACJA_ID>
+        <KLIENT_ID type="int">129</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">31</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-06-21</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-06-26</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">19</REZERWACJA_ID>
+        <KLIENT_ID type="int">253</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">32</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-08-12</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-08-13</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">90</REZERWACJA_ID>
+        <KLIENT_ID type="int">420</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">33</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-09-25</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-10-09</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">97</REZERWACJA_ID>
+        <KLIENT_ID type="int">62</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">34</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-08-09</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-08-15</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">38</REZERWACJA_ID>
+        <KLIENT_ID type="int">298</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">35</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-08-11</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-08-17</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">59</REZERWACJA_ID>
+        <KLIENT_ID type="int">495</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">36</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-07-13</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-07-21</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">60</REZERWACJA_ID>
+        <KLIENT_ID type="int">280</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">37</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-08-02</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-08-07</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">37</REZERWACJA_ID>
+        <KLIENT_ID type="int">342</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">38</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-07-27</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-07-30</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">77</REZERWACJA_ID>
+        <KLIENT_ID type="int">394</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">39</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-09-12</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-09-22</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">81</REZERWACJA_ID>
+        <KLIENT_ID type="int">84</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">40</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-08-10</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-08-14</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">92</REZERWACJA_ID>
+        <KLIENT_ID type="int">454</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">41</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-07-13</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-07-16</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">6</REZERWACJA_ID>
+        <KLIENT_ID type="int">21</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">42</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-08-25</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-08-31</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">26</REZERWACJA_ID>
+        <KLIENT_ID type="int">425</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">43</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-06-30</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-07-07</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">43</REZERWACJA_ID>
+        <KLIENT_ID type="int">177</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">44</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-09-15</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-09-29</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">74</REZERWACJA_ID>
+        <KLIENT_ID type="int">387</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">45</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-06-19</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-06-27</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">4</REZERWACJA_ID>
+        <KLIENT_ID type="int">260</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">46</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-08-02</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-08-13</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">11</REZERWACJA_ID>
+        <KLIENT_ID type="int">194</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">47</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-08-09</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-08-15</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">46</REZERWACJA_ID>
+        <KLIENT_ID type="int">417</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">48</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-09-09</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-09-20</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">55</REZERWACJA_ID>
+        <KLIENT_ID type="int">297</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">49</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-08-14</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-08-27</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">71</REZERWACJA_ID>
+        <KLIENT_ID type="int">316</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">50</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-07-01</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-07-10</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">2</REZERWACJA_ID>
+        <KLIENT_ID type="int">12</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">51</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-07-02</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-07-15</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">58</REZERWACJA_ID>
+        <KLIENT_ID type="int">140</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">52</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-06-30</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-07-12</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">7</REZERWACJA_ID>
+        <KLIENT_ID type="int">365</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">53</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-08-20</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-08-31</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">14</REZERWACJA_ID>
+        <KLIENT_ID type="int">66</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">54</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-08-03</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-08-12</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">15</REZERWACJA_ID>
+        <KLIENT_ID type="int">363</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">55</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-07-27</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-07-29</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">83</REZERWACJA_ID>
+        <KLIENT_ID type="int">199</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">56</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-08-25</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-09-05</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">84</REZERWACJA_ID>
+        <KLIENT_ID type="int">251</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">57</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-09-28</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-10-05</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">93</REZERWACJA_ID>
+        <KLIENT_ID type="int">310</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">58</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-08-07</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-08-11</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">32</REZERWACJA_ID>
+        <KLIENT_ID type="int">309</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">59</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-07-07</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-07-11</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">54</REZERWACJA_ID>
+        <KLIENT_ID type="int">451</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">60</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-07-26</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-08-07</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">13</REZERWACJA_ID>
+        <KLIENT_ID type="int">18</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">61</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-06-27</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-07-07</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">23</REZERWACJA_ID>
+        <KLIENT_ID type="int">5</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">62</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-09-05</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-09-09</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">47</REZERWACJA_ID>
+        <KLIENT_ID type="int">151</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">63</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-09-15</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-09-16</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">87</REZERWACJA_ID>
+        <KLIENT_ID type="int">49</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">64</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-09-05</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-09-09</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">98</REZERWACJA_ID>
+        <KLIENT_ID type="int">456</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">65</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-06-16</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-06-22</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">1</REZERWACJA_ID>
+        <KLIENT_ID type="int">33</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">66</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-07-28</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-08-04</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">82</REZERWACJA_ID>
+        <KLIENT_ID type="int">74</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">67</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-07-11</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-07-24</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">12</REZERWACJA_ID>
+        <KLIENT_ID type="int">9</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">68</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-07-20</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-07-30</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">50</REZERWACJA_ID>
+        <KLIENT_ID type="int">149</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">69</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-07-13</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-07-18</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">10</REZERWACJA_ID>
+        <KLIENT_ID type="int">218</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">70</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-08-10</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-08-23</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">17</REZERWACJA_ID>
+        <KLIENT_ID type="int">336</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">71</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-08-12</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-08-20</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">24</REZERWACJA_ID>
+        <KLIENT_ID type="int">311</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">72</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-06-25</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-06-29</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">29</REZERWACJA_ID>
+        <KLIENT_ID type="int">325</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">73</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-08-14</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-08-24</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">49</REZERWACJA_ID>
+        <KLIENT_ID type="int">423</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">74</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-09-08</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-09-12</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">94</REZERWACJA_ID>
+        <KLIENT_ID type="int">96</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">75</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-07-24</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-08-05</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">9</REZERWACJA_ID>
+        <KLIENT_ID type="int">347</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">76</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-07-13</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-07-22</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">68</REZERWACJA_ID>
+        <KLIENT_ID type="int">347</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">77</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-07-03</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-07-13</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">20</REZERWACJA_ID>
+        <KLIENT_ID type="int">128</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">78</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-08-19</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-08-25</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">44</REZERWACJA_ID>
+        <KLIENT_ID type="int">126</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">79</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-07-11</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-07-13</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">61</REZERWACJA_ID>
+        <KLIENT_ID type="int">382</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">80</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-08-17</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-08-24</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">67</REZERWACJA_ID>
+        <KLIENT_ID type="int">409</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">81</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-09-10</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-09-13</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">70</REZERWACJA_ID>
+        <KLIENT_ID type="int">258</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">82</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-09-01</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-09-14</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">88</REZERWACJA_ID>
+        <KLIENT_ID type="int">335</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">83</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-10-04</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-10-15</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">76</REZERWACJA_ID>
+        <KLIENT_ID type="int">164</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">84</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-08-18</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-08-27</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">79</REZERWACJA_ID>
+        <KLIENT_ID type="int">164</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">85</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-07-24</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-08-05</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">5</REZERWACJA_ID>
+        <KLIENT_ID type="int">458</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">86</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-07-29</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-08-08</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">39</REZERWACJA_ID>
+        <KLIENT_ID type="int">139</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">87</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-08-06</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-08-12</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">40</REZERWACJA_ID>
+        <KLIENT_ID type="int">396</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">88</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-07-18</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-07-26</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">16</REZERWACJA_ID>
+        <KLIENT_ID type="int">165</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">89</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-07-04</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-07-16</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">18</REZERWACJA_ID>
+        <KLIENT_ID type="int">176</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">90</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-07-29</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-08-09</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">30</REZERWACJA_ID>
+        <KLIENT_ID type="int">211</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">91</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-09-28</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-09-29</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">89</REZERWACJA_ID>
+        <KLIENT_ID type="int">239</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">92</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-09-04</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-09-12</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">63</REZERWACJA_ID>
+        <KLIENT_ID type="int">32</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">93</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-08-07</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-08-08</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">65</REZERWACJA_ID>
+        <KLIENT_ID type="int">24</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">94</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-08-04</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-08-16</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">22</REZERWACJA_ID>
+        <KLIENT_ID type="int">467</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">95</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-08-14</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-08-28</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">48</REZERWACJA_ID>
+        <KLIENT_ID type="int">138</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">96</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-08-28</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-09-04</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">64</REZERWACJA_ID>
+        <KLIENT_ID type="int">217</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">97</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-07-19</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-07-26</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">66</REZERWACJA_ID>
+        <KLIENT_ID type="int">307</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">98</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-09-14</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-09-28</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">75</REZERWACJA_ID>
+        <KLIENT_ID type="int">299</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">99</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-09-21</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-10-01</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">72</REZERWACJA_ID>
+        <KLIENT_ID type="int">160</KLIENT_ID>
+    </Gosc-element>
+    <Gosc-element>
+        <GOSC_ID type="int">100</GOSC_ID>
+        <DATA_PRZYJAZDU>2021-09-09</DATA_PRZYJAZDU>
+        <DATA_ODJAZDU>2021-09-22</DATA_ODJAZDU>
+        <REZERWACJA_ID type="int">100</REZERWACJA_ID>
+        <KLIENT_ID type="int">252</KLIENT_ID>
+    </Gosc-element>
+</Gosc>

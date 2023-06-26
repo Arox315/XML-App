@@ -1,0 +1,130 @@
+{% extends 'base.html' %}
+{% block head%}
+<title>XML - Connect</title>
+{% endblock %}
+
+{% block body %}
+<div class="container">
+    <h1>Zaloguj się do bazy danych</h1>
+    <form class="login-form" method="post" enctype="multipart/form-data" onsubmit="return validate_form()">
+        <label for="user">Nazwa użytkownika:</label>
+        <input id="user" name="user" type="text" autocomplete="off">
+        <p id="user-feedback"></p>
+
+        <label for="password">Hasło:</label>
+        <input id="password" name="password" type="password" autocomplete="off">
+        <p id="password-feedback"></p>
+
+        <label for="ip">IP:</label>
+        <input id="ip" name="ip" type="text" autocomplete="off">
+        <p id="ip-feedback"></p>
+
+        <label for="port">Port:</label>
+        <input id="port" name="port" type="text" autocomplete="off">
+        <p id="port-feedback"></p>
+
+        <label for="service-name">Service Name:</label>
+        <input id="service-name" name="service-name" type="text" autocomplete="off">
+        <p id="service-feedback"></p>
+        
+        <input class="connect-submit" name="login" type="submit" value="Zaloguj">
+    </form>
+</div>
+
+<script>
+
+    const user = document.getElementById('user');
+    const password = document.getElementById('password');
+    const ip = document.getElementById('ip');
+    const port = document.getElementById('port');
+    const service_name = document.getElementById('service-name');
+
+    user.addEventListener("input",()=>{
+        user.style.borderColor = "#555555";
+        user.placeholder = "";
+    })
+
+    password.addEventListener("input",()=>{
+        password.style.borderColor = "#555555";
+        password.placeholder = "";
+    })
+
+    ip.addEventListener("input",()=>{
+        ip.style.borderColor = "#555555";
+        ip.placeholder = "";
+    })
+
+    port.addEventListener("input",()=>{
+        port.style.borderColor = "#555555";
+        port.placeholder = "";
+    })
+
+    service_name.addEventListener("input",()=>{
+        service_name.style.borderColor = "#555555";
+        service_name.placeholder = "";
+    })
+
+    function clear_feedback(){
+        document.getElementById('user-feedback').innerHTML = "";
+        document.getElementById('password-feedback').innerHTML = "";
+        document.getElementById('ip-feedback').innerHTML = "";
+        document.getElementById('port-feedback').innerHTML = "";
+        document.getElementById('service-feedback').innerHTML = "";
+    }
+
+    function validate_form(){
+        clear_feedback();
+        let empty_text = "Uzupełnij wymagane pole!";
+        let invalid = false;
+
+        const ip_re = /^(?!0)(?!.*\.$)((1?\d?\d|25[0-5]|2[0-4]\d)(\.|$)){4}$/;
+        const port_re = /^(6553[0-5]|655[0-2][0-9]|65[0-4][0-9][0-9]|6[0-4][0-9][0-9][0-9][0-9]|[1-5](\d){4}|[1-9](\d){0,3})$/;
+
+        if(user.value == ""){
+            user.placeholder = empty_text;
+            user.style.borderColor = "red";
+            invalid = true;
+        }
+
+        if(password.value == ""){
+            password.placeholder = empty_text;
+            password.style.borderColor = "red";
+            invalid = true;
+        }
+
+        if(ip.value == ""){
+            ip.placeholder = empty_text;
+            ip.style.borderColor = "red";
+            invalid = true;
+        }
+        else if(ip_re.test(ip.value) == false){
+            document.getElementById('ip-feedback').innerHTML = "Niepoprawne dane!";
+            ip.style.borderColor = "red";
+            invalid = true;
+        }
+
+        if(port.value == ""){
+            port.placeholder = empty_text;
+            port.style.borderColor = "red";
+            invalid = true;
+        }
+        else if(port_re.test(port.value) == false){
+            document.getElementById('port-feedback').innerHTML = "Niepoprawne dane!";
+            port.style.borderColor = "red";
+            invalid = true;
+        }
+
+        if(service_name.value == ""){
+            service_name.placeholder = empty_text;
+            service_name.style.borderColor = "red";
+            invalid = true;
+        }
+
+        if(invalid){
+            return false;
+        }
+
+    }
+</script>
+
+{% endblock %}

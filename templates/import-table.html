@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+{% block head%}
+<title>XML - Import</title>
+{% endblock %}
+
+{% block body %}
+<div class="container">
+    <h1>Zaimportuj dane do tabeli</h1>
+
+    <form id="form" action="/import-table" method="POST" enctype="multipart/form-data">
+        <input type="file" name="content" id="content" accept=".xml">
+        <label class="file-label" for="content">Wybierz plik...</label>
+        <span>
+            <strong>Wybrany plik:</strong>
+            <span id="filename">Brak</span>
+        </span>
+        <input type="submit" name="action" value="Importuj">
+    </form>
+
+    {% if root != None %}
+        <div class="table-wrapper">
+            <div class="inner-table-wrapper">
+                <h2 class="success">Zapis do tabeli {{root.tag}} zakończony pomyślnie!</h2>
+                <a class="go-to-table-btn" href="/export-table/{{root.tag}}">Przejdź do tabeli {{root.tag}}</a>
+                <p>Dane dodane do tabeli {{root.tag}}:</p>
+            </div>
+            <div style="overflow: auto; max-height: 45svh; min-height: fit-content;">
+                <table>
+                    <tr>
+                        {% for child in root[0] %}
+                            <th>{{child.tag}}</th>
+                        {% endfor %}
+                    </tr>
+                    {% for child in root %}
+                        <tr>
+                            {% for element in child %}
+                                <td>{{element.text}}</td>
+                            {% endfor %}
+                        </tr>
+                    {% endfor %}
+                </table>
+            </div>
+        </div>
+    {% endif %}
+</div>
+
+<script>
+    let inputfile = document.getElementById('content');
+    let filename = document.getElementById('filename');
+    inputfile.addEventListener('change',function(event){
+        let uploadedfilename = event.target.files[0].name;
+        let form = document.getElementById("form");
+        let width = parseInt(form.offsetWidth/15.35);
+        console.log(width)
+        if (uploadedfilename.length > width){
+            uploadedfilename = uploadedfilename.substr(0,width) + "...";
+        }
+        filename.textContent = uploadedfilename;
+    })
+</script>
+
+{% endblock %}

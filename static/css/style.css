@@ -1,0 +1,258 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+
+.container{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    min-width: 300px;
+    height: 100%;
+    padding-top:5svh;
+}
+
+.table-name{
+    text-align: center;
+    border-bottom: 2px dotted black;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 3rem;
+}
+
+.table-wrapper{
+    display: flex;
+    justify-content: center;
+    overflow-x: auto;
+    width: 80%;
+    margin: auto;
+    flex-direction: column;
+}
+
+table, th, td{
+    border: 1px solid black;
+}
+
+table{
+    border-collapse: collapse;
+    /*margin-bottom: 50px;*/
+    width: 100%;
+}
+
+th{
+    padding: 5px;
+}
+
+td{
+    padding-block: 3px;
+    padding-inline: 5px;
+    text-align: center;
+}
+
+nav{
+    margin: auto;
+    height: 60px;
+    width: 80%;
+    min-width: 300px;
+    box-shadow: 0px 4px 8px 0px rgb(0 0 0 / 0.2);
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+.nav-main-btn{
+    text-decoration: none;
+    display: block;
+    color: inherit;
+    line-height: 60px;
+    font-size: clamp(.75rem,2vw,1rem);
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    /*top: 50%;*/
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f3f8ff}
+
+.dropdown:hover .dropdown-content,
+.dropdown:focus .dropdown-content {
+    display: block;
+}
+
+.home-btn{
+    padding-inline: 10px;
+}
+
+.error{
+    color: rgb(121, 0, 0);
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.success{
+    color: rgb(46, 198, 56);
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.go-to-table-btn{
+    text-decoration: none;
+    font-size: 1.25rem;
+    color: inherit;
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid black;
+    box-shadow: 0px 2px 4px 0px rgb(0 0 0/ 0.1), 
+    inset 0px 2px 4px 0px rgb(0 0 0/ 0.1);
+    transition: background-color 150ms ease-out;
+}
+
+.inner-table-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.inner-table-wrapper p{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.go-to-table-btn:hover{
+    background-color: #f3f8ff;
+}
+
+.nav-main-btn{
+    transition: background-color 200ms ease-out;
+    padding-inline: 10px;
+}
+
+.nav-main-btn:hover{
+    background-color: #f3f8ff;
+}
+
+.nav-login-btn{
+    margin-left: auto;
+}
+
+input[type="file"]{
+    display: none;
+}
+
+.file-label{
+    box-shadow: 0px 2px 4px 0px rgb(0 0 0/ 0.1), 
+    inset 0px 2px 4px 0px rgb(0 0 0/ 0.1);
+    border: 1px solid black;
+    background-color: #69a5f9;
+    text-align: center;
+    color: white;
+    padding: 8px;
+    transition: filter 200ms ease-in-out;
+}
+
+.file-label:hover{
+    cursor: pointer;
+    filter: brightness(107%)
+}
+
+form{
+    min-width: 40%;
+    width: fit-content;
+    display: flex;
+    gap: 5px;
+}
+
+input[type="submit"]{
+    box-shadow: 0px 2px 4px 0px rgb(0 0 0/ 0.1), 
+    inset 0px 2px 4px 0px rgb(0 0 0/ 0.1);
+    font-size: 1rem;
+    border: 1px solid black;
+    background-color: #4be098;
+    color: white;
+    padding: 8px;
+    margin-left: auto;
+    transition: filter 200ms ease-in-out;
+}
+
+input[type="submit"]:hover{
+    cursor: pointer;
+    filter: brightness(107%)
+}
+
+.file-label + span{
+    display: flex;
+    align-items: center;
+}
+
+#filename{
+    overflow-wrap: break-word;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form p{
+    margin: 0;
+    color: red;
+    padding-block: 2px;
+}
+
+.login-form input{
+    padding-block: 10px !important;
+    font-size: 1rem;
+    box-sizing: border-box;
+    outline: none;
+    border: 1px solid #555555;
+}
+
+::placeholder{
+   color: red;
+}
+
+::-ms-input-placeholder{
+    color: red;
+}
+
+.login-form input:focus{
+    border-color: #69a5f9 !important;
+}
+
+.connect-submit{
+    width: 100%;
+    margin-top: 20px;
+}
+
+@media (max-width: 1080px){
+    form{
+        flex-direction: column;
+    }
+    input[type="submit"]{
+        margin-left: 0;
+    }
+}

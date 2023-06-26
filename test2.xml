@@ -1,0 +1,10 @@
+<adres>
+    <adres-element>
+        <ADRES_ID>6</ADRES_ID>
+        <WOJEWODZTWO>Wielkopolskie</WOJEWODZTWO>
+        <MIASTO>Poznań</MIASTO>
+        <ULICA>Szkolna</ULICA>
+        <NR_BUDYNKU>8</NR_BUDYNKU>
+        <KOD_POCZTOWY>12-345</KOD_POCZTOWY>
+    </adres-element>
+</adres>

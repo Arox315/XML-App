@@ -1,0 +1,8 @@
+<hotel>
+    <hotel-element>
+        <HOTEL_ID type="int">6</HOTEL_ID>
+        <NAZWA>Dobra-Noc Poznań</NAZWA>
+        <NR_TELEFONU>111000111</NR_TELEFONU>
+        <ADRES_ID type="int">6</ADRES_ID>
+    </hotel-element>
+</hotel>

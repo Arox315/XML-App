@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% block head%}
+<title>XML - {{root.tag}}</title>
+{% endblock %}
+
+{% block body %}
+<div class="container">
+
+    <h1 class="table-name">Tabela: {{root.tag}}</h1>
+        <div class="table-wrapper">
+            <div style="overflow: auto; max-height: 60svh; min-height: fit-content;">
+                <table>
+                    <tr>
+                        {% for child in root[0] %}
+                            <th>{{child.tag}}</th>
+                        {% endfor %}
+                    </tr>
+                    {% for child in root %}
+                        <tr>
+                            {% for element in child %}
+                                <td>{{element.text}}</td>
+                            {% endfor %}
+                        </tr>
+                    {% endfor %}
+                </table>
+            </div>
+        </div>
+</div>
+{% endblock %}
